@@ -1,0 +1,31 @@
+from Tkinter import Tk, Label, Button
+
+my_app = Tk(className='Data Diri')
+
+L1 = Label(my_app, text='Data Diri', font=('Arial', 24))
+L1.grid(row=0, column=0)
+L2 = Label(my_app, text='Nama')
+L2.grid(row=1, column=0)
+L3 = Label(my_app, text='Vintan Kirana')
+L3.grid(row=1, column=1)
+L4 = Label(my_app, text='NIM')
+L4.grid(row=2, column=0)
+L5 = Label(my_app, text='L200180144')
+L5.grid(row=2, column=1)
+L6 = Label(my_app, text='Buku Favorit')
+L6.grid(row=3, column=0)
+L7 = Label(my_app, text='5cm')
+L7.grid(row=3, column=1)
+L8 = Label(my_app, text='Idola')
+L8.grid(row=4, column=0)
+L9 = Label(my_app, text='Ayahku!')
+L9.grid(row=4, column=1)
+L10 = Label(my_app, text='Motto')
+L10.grid(row=5, column=0)
+L11 = Label(my_app, text='Terbentur Terbentur Terbentuk!')
+L11.grid(row=5, column=1)
+
+B = Button(my_app, text='Tutup', command = my_app.destroy)
+B.grid(row=6, column=1)
+my_app.mainloop()
+  
